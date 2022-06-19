@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-color: #ff5d44dd;
+    z-index: 2;
+}
+
+.logo {
+    position: absolute;
+    margin: 10px 125px;
+}
+
+.backgroundimage {
+    position: absolute;
+    margin: 0px 220px;
+}
+
+.bookonline {
+    position: absolute;
+    color: white;
+    margin: 50px 900px;
+    white-space: nowrap;
+    padding: 12px 30px 12px 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    padding: 90px 73px 10px 73px;
+    margin: 95px 900px;
+    background-color: white;
+    z-index: 1;
+    visibility: hidden;
+    opacity: calc(0%);
+    transition: opacity 0.3s, visibility 0.1s ease;
+}
+
+.bookonline:hover + .dropdown {
+    visibility: visible;
+    opacity: calc(100%);
+}
+
+.dropdown:hover {
+    visibility: visible;
+    opacity: calc(100%);
+}
+
+.onsiteservicetext {
+    position: absolute;
+    margin: -70px -45px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.onsiteservicetext:hover {
+    color: rgb(75, 255, 138);
+    position: absolute;
+    margin: -70px -45px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.partsdeliverytext {
+    position: absolute;
+    margin: -30px -45px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.partsdeliverytext:hover {
+    color: rgb(75, 255, 138);
+    position: absolute;
+    margin: -30px -45px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.bookonline {
+    position: absolute;
+    color: white;
+    margin: 50px 900px;
+    white-space: nowrap;
+    padding: 12px 30px 12px 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.contactdropdown {
+    position: absolute;
+    padding: 50px 57px 0px 57px;
+    margin: 95px 1159px;
+    background-color: white;
+    z-index: 1;
+    visibility: hidden;
+    opacity: calc(0%);
+    transition: opacity 0.3s, visibility 0.1s ease;
+}
+
+.contact:hover + .contactdropdown {
+    visibility: visible;
+    opacity: calc(100%);
+}
+
+.contactdropdown:hover {
+    visibility: visible;
+    opacity: calc(100%);
+}
+
+.requestcallback {
+    font-size: 15px;
+    position: absolute;
+    margin: -35px -54px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.requestcallback:hover {
+    color: rgb(75, 255, 138);
+    position: absolute;
+    margin: -35px -54px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.about {
+    position: absolute;
+    color: white;
+    margin: 50px 1050px;
+    white-space: nowrap;
+    padding: 12px 30px 12px 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.contact {
+    position: absolute;
+    color: white;
+    margin: 50px 1159px;
+    white-space: nowrap;
+    padding: 12px 30px 12px 30px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.line {
+    position: absolute;
+    background-color: white;
+    padding: 0.1px 900px 0.1px 123px;
+    margin: 145px 250px;
+}
+
+.text1 {
+    position: absolute;
+    color: white;
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgb(0 0 0 / 23%);
+    margin: 170px 250px;
+    cursor: default;
+}
+
+.text2 {
+    position: absolute;
+    color: white;
+    width: 550px;
+    margin: 250px 250px;
+    font-weight: lighter;
+    font-size: 17px;
+    font-family: sans-serif;
+    cursor: default;
+}
+
+.bookonlinetext {
+    position: absolute;
+    color: #ff5d44dd;
+    margin: 380px 250px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 23%);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.bookonlinetext:hover {
+    position: absolute;
+    color: #ff5d44dd;
+    margin: 380px 250px;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(75, 255, 138);
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px rgb(0 0 0 / 23%);
+    cursor: pointer;
+}
+
+.firstimage {
+    position: absolute;
+    margin: 95px 458px;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 23%);
+}
+
+
+.secondimage {
+    position: absolute;
+    margin: 230px 125px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 23%);
+}
+
+.thirdimage {
+    position: absolute;
+    margin: 230px 300px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 23%);
+}
+
+.fourthimage {
+    position: absolute;
+    margin: 230px 475px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 23%);
+}
+
+.icon1 {
+    position: absolute;
+    margin: 235px 180px;
+    cursor: pointer;
+}
+
+.bookonlinetexto {
+    position: absolute;
+    color: white;
+    margin: 600px 335px;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.lorem1 {
+    position: absolute;
+    color: white;
+    margin: 650px 300px;
+    width: 230px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon2 {
+    position: absolute;
+    margin: 235px 350px;
+    cursor: pointer;
+}
+
+.servicetypestext {
+    position: absolute;
+    color: white;
+    margin: 600px 685px;
+    white-space: nowrap;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.lorem2 {
+    position: absolute;
+    color: white;
+    margin: 650px 650px;
+    width: 230px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icon3 {
+    position: absolute;
+    margin: 235px 526px;
+    cursor: pointer;
+}
+
+.callforadvice {
+    position: absolute;
+    color: white;
+    margin: 600px 1025px;
+    white-space: nowrap;
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.lorem3 {
+    position: absolute;
+    color: white;
+    margin: 650px 1000px;
+    width: 230px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.copyrights {
+    position: absolute;
+    font-family: 'Dancing Script', cursive;
+    margin: 950px 650px;
+    white-space: nowrap;
+    cursor: default;
+}
